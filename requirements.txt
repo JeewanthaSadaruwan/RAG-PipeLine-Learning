@@ -1,4 +1,5 @@
 langchain
+langchain-text-splitters
 langchain-core
 langchain-community
 pypdf
@@ -7,4 +8,6 @@ sentence-transformers
 faiss-cpu
 chromadb
 langchain-google-genai
+openpyxl
+docx2txt
 python-dotenv
