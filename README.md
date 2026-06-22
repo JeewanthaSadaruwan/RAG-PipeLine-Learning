@@ -29,6 +29,20 @@ At the moment, the app:
 - Uses Google Gemini to produce a readable answer.
 - Prints a structured RAG response with answer, key points, sources, and retrieved evidence.
 
+## Architecture Diagrams
+
+### High-Level RAG Architecture
+
+This diagram shows the complete RAG workflow at a high level, from multi-format documents to the final Gemini-generated answer.
+
+![High-Level RAG Architecture](images/higherlevel.png)
+
+### Low-Level RAG Architecture
+
+This diagram shows the lower-level implementation details, including the project modules, document loaders, embedding pipeline, vector store, retrieval flow, and answer formatting.
+
+![Low-Level RAG Architecture](images/lowlevel.png)
+
 ## What I Was Learning
 
 This project helped me understand the core parts of a RAG system:
